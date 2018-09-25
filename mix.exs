@@ -1,9 +1,9 @@
-defmodule Indenticon.MixProject do
+defmodule Identicon.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :indenticon,
+      app: :identicon,
       version: "0.1.0",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
