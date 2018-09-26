@@ -15,6 +15,6 @@ defmodule Identicon do
   def pick_color(imageStruct) do
     %Identicon.Image{hex: [r, g, b | _tail]} = imageStruct
 
-    [r, g, b]
+    %Identicon.Image{imageStruct | color: {r, g, b}}
   end
 end
